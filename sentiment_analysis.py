@@ -162,4 +162,4 @@ for classifier in classifiers:
             print("------------------------------------------------------")
             train_classifier(classifier, 2000, gram, lang, False)
             print("------------------------------------------------------")
-            train_classifier(classifier, 2000, gram, lang, False)
+            train_classifier(classifier, 2000, gram, lang, True)
