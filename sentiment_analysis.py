@@ -155,11 +155,11 @@ svm = SklearnClassifier(LinearSVC())
 grams = ["unigram", "bigram"]
 langs = ["rus", "ger"]
 classifiers = [svm, NaiveBayesClassifier]
-# NaiveBayesClassifier
+
 for classifier in classifiers:
     for gram in grams:
         for lang in langs:
             print("------------------------------------------------------")
-            train_classifier(classifier, 500, gram, lang, False)
+            train_classifier(classifier, 2000, gram, lang, False)
             print("------------------------------------------------------")
-            train_classifier(classifier, 1500, gram, lang, False)
+            train_classifier(classifier, 2000, gram, lang, False)
