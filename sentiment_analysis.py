@@ -1,7 +1,5 @@
 from nltk.sentiment import SentimentAnalyzer
 from sklearn.svm import LinearSVC
-from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import MultinomialNB
 from nltk.classify.scikitlearn import SklearnClassifier
 from nltk.classify import NaiveBayesClassifier
 from nltk.sentiment.util import *
