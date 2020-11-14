@@ -5,7 +5,7 @@ from nltk.classify import NaiveBayesClassifier
 from nltk.sentiment.util import *
 from random import shuffle
 from training_data_methods import *
-from sklearn.model_selection import cross_val_score
+
 
 
 def train_classifier(classifier, num_of_tweets, gram, lang, lemmas):
